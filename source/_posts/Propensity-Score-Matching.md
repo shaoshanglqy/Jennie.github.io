@@ -4,6 +4,7 @@ date: 2019-12-15 21:38:33
 tags: ['Data Science','Python']
 categories: ['Data Science']
 ---
+<font size=2>
 
 ## Description
 
@@ -12,3 +13,5 @@ Propensity Score Matching is a Sample Matching Method, it can effectively elimin
 ## Algorithm
 
 Reuce X to one dimension through dimension reduction method, and get the Propensity Socre of every sample through Logistic Regression, then we match the samples, the most used way is Newares Neighbor matching, NNM.
+
+</font>
