@@ -47,14 +47,14 @@
 </script>
 
   <meta name="description" content="Sample Size Calculation1import scipy.stats as stats23def sample_size_calculation(mu, sigma, MDE, alpha&#x3D;0.05, beta&#x3D;0.2):4    return 2 * (sigma**2) * ((stats.norm.ppf(1-alpha&#x2F;2) + stats.norm.ppf(1-bet">
-<meta name="keywords" content="Experiment,Statistic,Python">
+<meta name="keywords" content="Python,Experiment,Statistic">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python for Sample Size &amp; MDE Calculation">
 <meta property="og:url" content="https:&#x2F;&#x2F;shaoshanglqy.github.io&#x2F;2019&#x2F;12&#x2F;09&#x2F;Python-Code-for-Sample-Size-MDE&#x2F;index.html">
 <meta property="og:site_name" content="Jennie&#39;s Notes">
 <meta property="og:description" content="Sample Size Calculation1import scipy.stats as stats23def sample_size_calculation(mu, sigma, MDE, alpha&#x3D;0.05, beta&#x3D;0.2):4    return 2 * (sigma**2) * ((stats.norm.ppf(1-alpha&#x2F;2) + stats.norm.ppf(1-bet">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-12-10T16:45:11.447Z">
+<meta property="og:updated_time" content="2019-12-22T03:47:34.415Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://shaoshanglqy.github.io/2019/12/09/Python-Code-for-Sample-Size-MDE/">
@@ -211,7 +211,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-12-11 00:45:11" itemprop="dateModified" datetime="2019-12-11T00:45:11+08:00">2019-12-11</time>
+                <time title="Modified: 2019-12-22 11:47:34" itemprop="dateModified" datetime="2019-12-22T11:47:34+08:00">2019-12-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -236,7 +236,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <font size=2>
+        <font size=3>
 
 <h3 id="Sample-Size-Calculation"><a href="#Sample-Size-Calculation" class="headerlink" title="Sample Size Calculation"></a>Sample Size Calculation</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> scipy.stats <span class="keyword">as</span> stats</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line"></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sample_size_calculation</span><span class="params">(mu, sigma, MDE, alpha=<span class="number">0.05</span>, beta=<span class="number">0.2</span>)</span>:</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line">    <span class="keyword">return</span> <span class="number">2</span> * (sigma**<span class="number">2</span>) * ((stats.norm.ppf(<span class="number">1</span>-alpha/<span class="number">2</span>) + stats.norm.ppf(<span class="number">1</span>-beta))**<span class="number">2</span>) / ((mu * MDE)**<span class="number">2</span>)</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line"></span></pre></td></tr></table></figure>
 
@@ -252,9 +252,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
+              <a href="/tags/Python/" rel="tag"># Python</a>
               <a href="/tags/Experiment/" rel="tag"># Experiment</a>
               <a href="/tags/Statistic/" rel="tag"># Statistic</a>
-              <a href="/tags/Python/" rel="tag"># Python</a>
           </div>
 
         
@@ -324,20 +324,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
