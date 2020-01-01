@@ -4,7 +4,7 @@ date: 2019-12-09 20:19:04
 tags: ['Experiment', 'Statistic', 'Python']
 categories: ['Experiment']
 ---
-<font size=2>
+<font size=3>
 
 ### Sample Size Calculation
 

@@ -5,15 +5,11 @@ tags: ['Life', 'Constant']
 categories: 
 - Life
 ---
-
-
-
-
 {% note %}
 *Jordan B. Peterson* is a phycological professor from University of Toronto. His book [12 Rules For Life](https://jordanbpeterson.com/12-rules-for-life/) is one of my favoirate book.
 {% endnote %}
 
-<font size=2>
+<font size=3>
 
 - Tell the truth.
 - Do not do things that you hate.
@@ -26,6 +22,7 @@ categories:
 - Plan and work diligently to maintain the romance in your relationships.
 - Be careful who you share good news with.
 - Be careful who you share bad news with.
+<!-- more -->
 - Make at least one thing better every single place you go.
 - Imagine who you could be, and then aim single-mindedly at that.
 - Do not allow yourself to become arrogant or resentful.
